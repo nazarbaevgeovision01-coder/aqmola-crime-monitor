@@ -1,0 +1,122 @@
+:root{font-family:"Segoe UI",Arial,sans-serif;color:#1e2b3b;background:#e8edf3;--bg:#e8edf3;--surface:#fcfdff;--text:#1e2b3b;--muted:#69788b;--border:#d3dce6;--grid:#e5eaf0;--hover:#f0f4f8;--purple:#395a7b}
+body{font-family:"Segoe UI",Arial,sans-serif;font-size:14px;background:#e8edf3}
+.app{font-family:"Segoe UI",Arial,sans-serif;background:#e8edf3}
+.brand b,.kpi-value,.category-row strong,h1,.panel-heading h2{font-family:"Segoe UI",Arial,sans-serif}
+.main{position:relative;isolation:isolate;background-color:#e8edf3;background-image:radial-gradient(ellipse at 88% 4%,rgba(83,111,143,.09),transparent 31%),linear-gradient(rgba(44,69,96,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(44,69,96,.035) 1px,transparent 1px);background-size:auto,48px 48px,48px 48px}
+.content,.topbar{position:relative;z-index:1}
+.sidebar{background:#172638;border-color:#2a3a4d;color:#e8eef5;box-shadow:4px 0 20px rgba(18,34,52,.08)}
+.brand-mark{background:#314b68;color:#e5c98e;box-shadow:inset 0 0 0 1px rgba(228,201,142,.27)}
+.brand b{font-size:15px;letter-spacing:1.5px;color:#f2f5f8}
+.brand small{font-size:9px;letter-spacing:1.8px;color:#9fadc0}
+.workspace{border-color:#35485e;background:#1d3045}
+.workspace-icon{background:#293f58;color:#d8c08b}
+.workspace b,.profile b{font-size:12px;color:#edf2f7}
+.workspace small,.profile small{font-size:11px;color:#a5b2c2}
+.workspace>svg,.profile>svg{color:#a5b2c2}
+.nav-label{font-size:10px;letter-spacing:1.1px;color:#a4b1c0}
+.sources-title span{background:#2b3c50;color:#d7e0ea}
+.nav-item,.source-nav{font-family:"Segoe UI",Arial,sans-serif;font-size:13px;color:#c0cbd7}
+.nav-item:hover,.source-nav:hover{background:#21364d;color:#f4f7fa}
+.nav-item.selected{position:relative;background:#2a4058;color:#fff;font-weight:600}
+.nav-item.selected:before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:3px;border-radius:0 3px 3px 0;background:#d5b878}
+.source-nav{font-size:12px}
+.demo-badge{border-color:#405067;background:#1d3045;color:#e1c98e;font-size:10px}
+.demo-badge small{font-size:11px;color:#aab7c6}
+.demo-pulse{background:#dfc383}
+.avatar,.top-avatar{background:#344d68;color:#f1d99d}
+.topbar{background:#1b2c40;border-color:#314257;border-top:2px solid #c8a96b}
+.breadcrumbs{font-size:12px;color:#afbdcc}
+.breadcrumbs span{color:#718196}
+.breadcrumbs b{color:#f0f4f8}
+.top-actions{gap:13px}
+.updated{font-size:11px;color:#bdc8d4}
+.icon-btn{background:#24394f;border-color:#43566d;color:#d0d9e2}
+.icon-btn:hover{background:#304760;color:#fff}
+.help{background:transparent;border-color:transparent}
+.content{padding-top:34px}
+.eyebrow{font-size:10px;letter-spacing:1.2px;color:#526b87}
+h1{font-size:30px;letter-spacing:-.6px;color:#1b2b40}
+.subtitle{font-size:14px;color:#65758a}
+.btn{font-family:"Segoe UI",Arial,sans-serif;font-size:12px;height:37px;padding:0 14px;border-radius:6px}
+.btn.primary{background:#304d6c;border-color:#304d6c;box-shadow:0 3px 9px rgba(25,46,69,.18)}
+.btn.primary:hover{background:#263f5a}
+.btn.outline{border-color:#c5cfdb;color:#33485f}
+.demo-banner{background:#eef2f5;border-color:#d4dde6;color:#3e566e}
+.banner-icon{background:#dce5ec}
+.demo-banner b{font-size:12px;color:#33485f}
+.demo-banner span{font-size:11px;color:#6f7f91}
+.demo-banner button{color:#728296}
+.filters{border-color:#ccd6e0;border-radius:7px;box-shadow:0 3px 10px rgba(29,48,70,.04)}
+.filter-heading b{font-size:12px}
+.filter-heading span{font-size:11px}
+.filter>span{font-size:9px;letter-spacing:.8px;color:#75869a}
+.filter>div{height:36px;border-color:#cfd8e2}
+.filter select{font-family:"Segoe UI",Arial,sans-serif;font-size:12px}
+.filter:first-child select{font-size:11px}
+.clear-filter{font:600 11px "Segoe UI",Arial,sans-serif;color:#526981}
+.period-note{font-size:9px;color:#74849a;margin:16px 2px}
+.period-note b{font-size:11px;color:#354b63}
+.kpi{min-height:122px;border-color:#ccd6e0;border-radius:7px;box-shadow:0 3px 10px rgba(29,48,70,.045);border-top:2px solid #9cabbc}
+.kpi:first-child{border-top-color:#536f8d}
+.kpi:nth-child(2){border-top-color:#7485a5}
+.kpi:nth-child(3){border-top-color:#65917c}
+.kpi:nth-child(4){border-top-color:#b18a56}
+.kpi-label{font-size:12px;color:#526378}
+.kpi-value{font-size:27px;color:#1c2c40}
+.kpi-bottom{font-size:11px;color:#6f7f91}
+.change{font-size:10px}
+.kpi-source{font:600 10px "Segoe UI",Arial,sans-serif;color:#405f80}
+.kpi-icon.blue{background:#e8edf3;color:#446383}
+.kpi-icon.violet{background:#eeedf3;color:#655f7b}
+.kpi-icon.green{background:#eaf1ed;color:#527d66}
+.kpi-icon.amber{background:#f4f0e8;color:#9a7747}
+.panel{border-color:#ccd6e0;border-radius:7px;box-shadow:0 3px 10px rgba(29,48,70,.045);border-top:2px solid #b7c2ce}
+.panel-heading h2{font-size:14px;letter-spacing:0;color:#1f3045}
+.panel-heading p{font-size:11px;color:#718095}
+.chart-legend,.chart-total{font-size:10px;color:#6e7d90}
+.chart-total b{color:#2a3d53}
+.chart-foot{font-size:10px;color:#748398}
+.text-link{font:600 10px "Segoe UI",Arial,sans-serif;color:#405f80}
+.soft-count{background:#edf1f5;color:#5f7084;font-size:10px}
+.category-info b{font-size:11px;color:#304256}
+.category-row strong{font-size:11px;color:#24364a}
+.category-percent{font-size:10px;color:#78879a}
+.card-caption{font-size:9px;color:#6f7f91}
+.map-panel .panel-heading p{font-size:10px}
+.map-expand{color:#687d94}
+.map-label{font-size:8px;color:#657991;letter-spacing:.9px}
+.district-tile{font:500 8px "Segoe UI",Arial,sans-serif;color:#465e7a}
+.district-tile b{font-size:10px;color:#304e70}
+.map-legend{font-size:9px;color:#60738a}
+.map-note{font-size:9px;color:#697b8e}
+.map-filters label span{font-size:8px;color:#657991}
+.map-filters select{font:500 10px "Segoe UI",Arial,sans-serif;color:#263d54}
+.threshold-tag{font-size:9px;font-weight:700}
+.breadcrumbs,.filter select,.filter-label,.map-filters select{font-family:"Segoe UI",Arial,sans-serif}
+.records-head{margin-bottom:14px}
+.searchbox{height:32px;border-color:#cfd8e2}
+.searchbox input{font:11px "Segoe UI",Arial,sans-serif}
+.btn.small{height:32px;font-size:10px}
+thead th{font-size:9px;letter-spacing:.6px;color:#64758a;background:#f1f4f7;padding:10px}
+tbody td{font-size:11px;color:#596b80;padding:11px 10px}
+.td-district{color:#263a50}
+.td-value{color:#26384d}
+.td-value small{font-size:10px;color:#748398}
+.status-pill{font-size:9px}
+.table-footer{font-size:10px;color:#687a8e;min-height:43px}
+.table-footer button{font:600 10px "Segoe UI",Arial,sans-serif;color:#405f80}
+.footer{font-size:10px;color:#667a90}
+.footer button{color:#667a90}
+.toast{font:12px "Segoe UI",Arial,sans-serif}
+.dark{font-family:"Segoe UI",Arial,sans-serif}
+.dark .main{background-image:radial-gradient(ellipse at 88% 4%,rgba(83,111,143,.12),transparent 31%),linear-gradient(rgba(160,180,204,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(160,180,204,.035) 1px,transparent 1px);background-size:auto,48px 48px,48px 48px}
+.dark .sidebar{background:#111b28;border-color:#2c3949}
+.dark .topbar{background:#151f2d;border-color:#344153;border-top-color:#c8a96b}
+.dark h1,.dark .panel-heading h2,.dark .kpi-value{color:#edf2f7}
+.dark .btn.primary{background:#415f80;border-color:#415f80}
+.dark .demo-banner{background:#253344;border-color:#3a4b60}
+.dark .demo-banner b{color:#dce5ed}
+.dark .demo-banner span{color:#aebbc9}
+.dark thead th{background:#252e3b;color:#c1cbd7}
+@media(max-width:850px){.content{padding-top:26px}.nav-item.selected:before{left:0}.nav-label{font-size:0;padding:0;margin:0}.sources-title span,.workspace div:nth-child(2),.workspace>svg{display:none}.workspace{width:38px;height:38px;justify-content:center;margin:0 auto 28px;padding:0}.workspace-icon{flex:none}.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi{min-height:116px}}
+@media(max-width:560px){h1{font-size:26px}.subtitle{font-size:12px}.content{padding-top:22px}.panel-heading h2{font-size:13px}.filter select{font-size:11px}.filter:first-child select{font-size:10px}.kpi-label{font-size:11px}.kpi-value{font-size:24px}.demo-banner b{font-size:11px}.demo-banner span{font-size:10px}.period-note{font-size:8px}.period-note b{font-size:10px}.source-cell{font-size:10px}}
